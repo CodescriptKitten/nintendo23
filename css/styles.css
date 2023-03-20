@@ -3,13 +3,21 @@
 
 Color Hex:
 
-
+Screen Blue - #0554F2
+Controller Blue - #49E1F2
+Controller Red - #F29C6B
+Case Red - #F25E3D
+Table White - #F2F2F2
 
 Font Families:
 
-
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Rubik', sans-serif;
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto+Slab:wght@200;400;700&family=Rubik:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 
 *, *:after {
     padding: 0;
@@ -18,11 +26,13 @@ Font Families:
 }
 
 body {
-
+    background-color: #F2F2F2;
 }
 
 h1 {
-
+    font-family: 'Press Start 2P', cursive;
+    color: #F25E3D;
+    text-align: center;
 }
 
 h2 {
@@ -35,6 +45,18 @@ blockquote {
 
 table {
 
+}
+
+nav {
+
+}
+
+nav ul {
+
+}
+
+nav ul li {
+    
 }
 
 nav ul li a:link {
@@ -51,4 +73,8 @@ nav ul li a:active {
 
 nav ul li a:visited {
     
+}
+
+.attribution {
+    font-size: .8em;
 }
