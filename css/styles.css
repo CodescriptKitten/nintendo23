@@ -8,6 +8,7 @@ Controller Blue - #49E1F2
 Controller Red - #F29C6B
 Case Red - #F25E3D
 Table White - #F2F2F2
+Table White Opposite - #0D0D0D
 
 Font Families:
 
@@ -40,6 +41,10 @@ h2 {
 
 }
 
+main { 
+	margin: 2em;
+}
+
 blockquote {
 
 }
@@ -49,33 +54,49 @@ table {
 }
 
 nav {
-    display: inline-block;
+    display: block;
 }
 
 nav ul {
     list-style-type: none;
+	text-align: center;
 }
 
 nav ul li {
     display: inline-block;
+	padding: 0 2em;
+	font-family: 'Press Start 2P', cursive;
+	text-decoration: none;
 }
 
 nav ul li a:link {
-
+	border: solid;
+	border-color: #0D0D0D;
+	border-width: 2px;
+	text-decoration: none;
 }
 
 nav ul li a:hover {
-    
+	text-decoration: none;
 }
 
 nav ul li a:active {
-    
+	text-decoration: none;
 }
 
 nav ul li a:visited {
-    
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+}
+
+footer p {
+	font-size: .8em;
 }
 
 .attribution {
-    font-size: .8em;
+    font-size: .6em;
+	display: inline-block;
 }
