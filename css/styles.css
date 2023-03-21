@@ -64,27 +64,45 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-	padding: 0 2em;
+	margin: 0 2em;
 	font-family: 'Press Start 2P', cursive;
 	text-decoration: none;
 }
 
 nav ul li a:link {
+	color: #0D0D0D;
+	background-color: #F25E3D;
 	border: solid;
 	border-color: #0D0D0D;
-	border-width: 2px;
+	padding: 4px;
+	border-width: 4px;
 	text-decoration: none;
 }
 
 nav ul li a:hover {
+	color: #F2F2F2;
+	border: solid;
+	border-color: #0D0D0D;
+	padding: 4px;
+	border-width: 4px;
 	text-decoration: none;
 }
 
 nav ul li a:active {
+	color: #49E1F2;
+	border: solid;
+	border-color: #0554F2;
+	padding: 4px;
+	border-width: 4px;
 	text-decoration: none;
 }
 
 nav ul li a:visited {
+	color: #49E1F2;
+	border: solid;
+	border-color: #0D0D0D;
+	padding: 4px;
+	border-width: 4px;
 	text-decoration: none;
 }
 
